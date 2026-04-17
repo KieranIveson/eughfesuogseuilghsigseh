@@ -1,0 +1,125 @@
+  
+
+     body {
+        margin: 0;
+        padding: 40px;
+        background-color: #f9f1e6; /* Cream background */
+        font-family: Arial, sans-serif;
+        color: #1a1a1a;
+    }
+
+    /* Top Header Section */
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .inputs {
+        font-size: 14px;
+        color: #d14d4d; /* Reddish text */
+    }
+
+    .inputs span {
+        display: inline-block;
+        width: 100px;
+        border-bottom: 1px solid #1a1a1a;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    /* Main Title Section */
+    .brand-section {
+        border-bottom: 1px solid #1a1a1a;
+        padding-bottom: 10px;
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    .brand-name {
+        font-size: 80px;
+        font-weight: normal;
+        margin: 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    /* Curved Badge Text */
+    .curved-text {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 120px;
+        height: 120px;
+        color: #d14d4d;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* Content Section */
+    .content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .testimonial {
+        text-align: left;
+    }
+
+    .name-header {
+        font-family: "Brush Script MT", cursive; /* Approximate for the script font */
+        font-size: 48px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+        letter-spacing: 4px;
+    }
+
+    .quote {
+        font-family: "Times New Roman", serif;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .attribution {
+        font-family: "Times New Roman", serif;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .profile-image {
+        width: 500px;
+        height: 350px;
+        object-fit: cover;
+        box-shadow: 10px 10px 0px rgba(0,0,0,0.05);
+    }
+
+    .footer-line {
+        margin-top: 100px;
+        border-top: 1px solid #1a1a1a;
+    }
+    .profile-image {
+width: 300px;
+height: 300px;
+border-radius: 50%;
+object-fit: cover;
+box-shadow: 10px 10px 0px rgba(0,0,0,0.05);
+display: block;
+}
+body {
+margin: 0;
+padding: 40px;
+background-color: #f7b1cd; /* Light pink */
+font-family: Arial, sans-serif;
+color: #1a1a1a;
+}
+

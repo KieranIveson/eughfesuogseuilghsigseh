@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <style>
+        body {
+            background-color: #f7b1cd !important; /* Light pink */
+        }
+        .symbol-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+            width: 100%;
+            max-width: none;
+        }
+        .symbol {
+            text-align: center;
+            padding: 10px;
+            border-right: 1px solid #000;
+        }
+        .symbol:last-child {
+            border-right: none;
+        }
+        .symbol img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .symbol p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+    <title>Catalog</title>
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #f9f1e6; /* Cream background */
+            font-family: Arial, sans-serif;
+            color: #1a1a1a;
+        }
+
+        /* Top Header Section */
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .inputs {
+            font-size: 14px;
+            color: #d14d4d; /* Reddish text */
+        }
+
+        .inputs span {
+            display: inline-block;
+            width: 100px;
+            border-bottom: 1px solid #1a1a1a;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-left: 30px;
+            font-size: 18px;
+        }
+
+        /* Main Title Section */
+        .brand-section {
+            border-bottom: 1px solid #1a1a1a;
+            padding-bottom: 10px;
+            margin-bottom: 80px;
+            position: relative;
+        }
+
+        .brand-name {
+            font-size: 80px;
+            font-weight: normal;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Curved Badge Text */
+        .curved-text {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 120px;
+            height: 120px;
+            color: #d14d4d;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        /* Content Section */
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .testimonial {
+            text-align: left;
+        } 
+
+        .name-header {
+            font-family: "Brush Script MT", cursive; /* Approximate for the script font */
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: lighter;
+            letter-spacing: 4px;
+        }
+
+        .quote {
+            font-family: "Times New Roman", serif;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .attribution {
+            font-family: "Times New Roman", serif;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .profile-image {
+            width: 500px;
+            height: 350px;
+            object-fit: cover;
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.05);
+        }
+
+        .footer-line {
+            margin-top: 100px;
+            border-top: 1px solid #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-top">
+        <div class="inputs">
+            Name: <span></span> Date: <span></span> <button type="button" onclick="alert('Hello world!')">Submit</button>
+        </div>
+        <nav>
+            <a href="/index.html">Homepage</a>
+            <a href="/Catalog/Catalog.html">Catalog</a>
+            <a href="/Homebaking/Homebaking.html">Home baking</a>
+            <a href="/Contacts/contacts.html">Contacts</a>
+        </nav>
+    </div>
+
+    <div class="brand-section">
+        <h1 class="brand-name">CAKE MAKE</h1>
+        <div class="curved-text">
+            <svg viewBox="0 0 100 100" width="100" height="100">
+                <path id="curve" d="M 20,50 A 30,30 0 1,1 80,50" fill="transparent"/>
+                <text fill="#d14d4d" font-size="8">
+                
+                </text>
+            </svg>
+        </div>
+    </div>
+
+    <main class="content">
+        <div class="symbol-grid">
+            <div class="symbol"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Child's Birthday Cake"><p><strong>Custom Birthday Cake</strong><br>Price: £50<br>Delivery: 2-3 days</p></div>
+            <div class="symbol"><img src="/Images/White.jpg" alt="Wedding Cake"><p><strong>Custom Wedding Cake</strong><br>Price: £80<br>Delivery: 3-4 days</p></div>
+            <div class="symbol"><img src="/Images/Choc.jpg" alt="Random image 3"><p><strong>Custom chocolate cake</strong><br>Price: £30<br>Delivery: 3-67 days</p></div>
+            <div class="symbol"><img src="/Images/sponge.jpg" alt="Random image 4"><p><strong>Custom sponge cake</strong><br>Price: £100<br>Delivery: 3-41 days</p></div>
+        </div>
+   
+    </main>
+
+    <div class="footer-line"></div>
+
+    <body>
+    <html
